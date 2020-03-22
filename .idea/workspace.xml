@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9008e145-fda1-4791-b254-eabd6a206880" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Face_ID_New.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68Marks.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CV2_Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Face.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KLT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KLT_New.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KLT_UserDefine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV_Function_Test/68Marks.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV_Function_Test/RoFit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV_Function_Test/Rotate_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV_Function_Test/mmod_human_face_detector.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV_Function_Test/rotate_test_with_RoFit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV_Function_Test/stable.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenCV_Function_Test/time_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pic_Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RoFit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Video_Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wending_AllPic.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wending_AllPic_yidong.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wending_SingleFace.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wending_SingleFace_yidong.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmod_human_face_detector.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmod_human_face_detector.dat.bz2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numpy_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pic.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_read.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_read2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_read3.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/activate.csh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/activate.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/python" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/python3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/python3.6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib64" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV_Function_Test/RoFit.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV_Function_Test/RoFit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +42,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.time_test">
+  <component name="RunManager" selected="Python.RoFit">
     <configuration name="KLT_UserDefine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Face_ID_New" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,8 +171,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.time_test" />
         <item itemvalue="Python.RoFit" />
+        <item itemvalue="Python.time_test" />
         <item itemvalue="Python.KLT_UserDefine" />
         <item itemvalue="Python.RoFit (1)" />
         <item itemvalue="Python.Video_Test" />
@@ -239,30 +197,34 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2303" y="214" width="1084" height="779" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583831829903" />
-    <state x="3035" y="674" width="795" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584639798225">
+    <state x="3035" y="674" width="795" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584847973829">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="3035" y="674" width="795" height="406" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584639798225" />
-    <state width="890" height="206" key="GridCell.Tab.0.bottom" timestamp="1584785010823">
+    <state x="3035" y="674" width="795" height="406" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584847973829" />
+    <state x="2516" y="93" width="784" height="918" key="CommitChangelistDialog2" timestamp="1584850883489">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2516" y="93" width="784" height="918" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584850883489" />
+    <state width="1826" height="295" key="GridCell.Tab.0.bottom" timestamp="1584851191829">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1893" height="210" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584545407969" />
-    <state width="890" height="206" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584785010823" />
-    <state width="890" height="206" key="GridCell.Tab.0.center" timestamp="1584785010823">
+    <state width="1826" height="295" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584851191829" />
+    <state width="1826" height="295" key="GridCell.Tab.0.center" timestamp="1584851191829">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1893" height="210" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584545407968" />
-    <state width="890" height="206" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584785010823" />
-    <state width="890" height="206" key="GridCell.Tab.0.left" timestamp="1584785010823">
+    <state width="1826" height="295" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584851191829" />
+    <state width="1826" height="295" key="GridCell.Tab.0.left" timestamp="1584851191829">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1893" height="210" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584545407968" />
-    <state width="890" height="206" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584785010823" />
-    <state width="890" height="206" key="GridCell.Tab.0.right" timestamp="1584785010823">
+    <state width="1826" height="295" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584851191829" />
+    <state width="1826" height="295" key="GridCell.Tab.0.right" timestamp="1584851191829">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1893" height="210" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584545407968" />
-    <state width="890" height="206" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584785010823" />
+    <state width="1826" height="295" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584851191829" />
     <state width="1826" height="338" key="GridCell.Tab.1.bottom" timestamp="1584724278666">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -283,11 +245,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2803" y="294" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583832160111" />
-    <state x="2840" y="419" key="com.intellij.ide.util.TipDialog" timestamp="1584785123905">
+    <state x="2840" y="419" key="com.intellij.ide.util.TipDialog" timestamp="1584847364884">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="920" y="436" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584158717902" />
-    <state x="2840" y="419" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584785123905" />
+    <state x="2840" y="419" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584847364884" />
     <state x="696" y="123" width="1092" height="912" key="dock-window-1" timestamp="1584624447767">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

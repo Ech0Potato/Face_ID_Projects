@@ -310,6 +310,7 @@ class face_cam_api():
             # 添加修正图片
             img_list.append(self.face_KeyArea_rotate_fit(self.frame_color_now,face_landmarks_in_circle))
 
+        print("{0}帧人脸直接识别，{1}帧光流追踪".format(1,KLT_track_times))
         return img_list
 
     # 下面暂存了要修改的返回时间的部分，等待与数字信号处理算法的对接
@@ -472,14 +473,74 @@ def rotate_fit(img,landmarks):
     return face_shaped
 '''
 
+# if __name__ == "__main__" :
+#     Cap = face_cam_api(0,1920,1080,0)
+#
+#     imgs = Cap.face_track_once(0,20)
+#
+#     count = 0
+#     for each in imgs:
+#         count = count + 1
+#         cv2.imshow("{0},{1}:{2}".format(each.shape[0],each.shape[1],count),each)
+#
+#     cv2.waitKey(0)
+#
+#
+
+def Video_Process(KLT_times,total_times):
+    session = face_cam_api("stable.mp4",1920,1080,0)
+    out_fourcc = cv2.VideoWriter_fourcc(*"X264")
+    out = cv2.VideoWriter("1次采集{0}次光流.avi".format(KLT_times),out_fourcc,fps=5,frameSize=(550,400))
+    total_list = list()
+    for i in range(total_times):
+        img_list = session.face_track_once(0,KLT_times)
+        count = 0
+        for each in img_list :
+            count = count + 1
+            each = cv2.resize(each,(550,400),interpolation=cv2.INTER_CUBIC)
+            cv2.putText(each,"{0}:{1}".format(i+1,count),(0,30),cv2.FONT_HERSHEY_TRIPLEX,1,[0,255,0],thickness=1)
+            total_list.append(each)
+    for each in total_list :
+        out.write(each)
+    print("1次采集{0}次光流.avi写入完毕".format(KLT_times))
+
+
 if __name__ == "__main__" :
-    Cap = face_cam_api(0,1920,1080,0)
+    list_t = [5,10,15,20,25]
+    total_times = 10
+    for each in list_t :
+        Video_Process(each,total_times)
+    # session = face_cam_api("stable.mp4",1920,1080,0)
+    # Video_Write_fourcc = cv2.VideoWriter_fourcc(*"XVID")
+    # video_session = cv2.VideoWriter("Catch_Demo.avi",Video_Write_fourcc,fps=30.0,frameSize=(825,600))
+    # total_list = list()
+    # for i in range(5):
+    #     img_list = session.face_track_once(0,10)
+    #     count = 0
+    #     for each in img_list :
+    #         count = count + 1
+    #         each = cv2.resize(each,(550,400),interpolation=cv2.INTER_CUBIC)
+    #         cv2.putText(each,"{0}:{1}".format(i+1,count),(0,30),cv2.FONT_HERSHEY_TRIPLEX,1,[0,255,0],thickness=1)
+    #         total_list.append(each)
+    #
+    # for each in total_list :
+    #     cv2.imshow("here",each)
+    #     cv2.waitKey(200)
 
-    imgs = Cap.face_track_once(0,20)
 
-    count = 0
-    for each in imgs:
-        count = count + 1
-        cv2.imshow("{0},{1}:{2}".format(each.shape[0],each.shape[1],count),each)
 
-    cv2.waitKey(0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
